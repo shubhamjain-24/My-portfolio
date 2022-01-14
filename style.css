@@ -325,11 +325,11 @@ font-size: 18px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    row-gap: 40px;
+    row-gap: 20px;
 }
 .work .work-content .card {
     width: calc(33% - 20px);
-    background:url(game.png);
+    background:none;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -338,7 +338,7 @@ font-size: 18px;
 }
 .work .work-content .card1{
     width: calc(33% - 20px);
-    background:url(management.png);
+    background:none;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -347,7 +347,7 @@ font-size: 18px;
 }
 .work .work-content .card2{
     width: calc(33% - 20px);
-    background:url(form.png);
+    background:none;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -356,7 +356,7 @@ font-size: 18px;
 }
 .work .work-content .card3{
     width: calc(33% - 20px);
-    background:url(filter.png);
+    background:none;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -365,16 +365,17 @@ font-size: 18px;
 }
 .work .work-content .card4{
     width: calc(33% - 20px);
-    background:url(tt.png);
+    background:none;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
     height: 225px;
 }
+
 .work .work-content .card5{
     width: calc(33% - 20px);
-    background:url(gym.png);
+    background:none;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -405,7 +406,7 @@ font-size: 18px;
     width: 100%;
     height: 152px;
 }
-.work .work-content .card .btn1{
+.work .work-content .card .btn{
     border-radius: 4px;
     background-color: red;
     color: yellow;
@@ -413,7 +414,7 @@ font-size: 18px;
     padding: 3px;
     font-family: 'Mochiy Pop P One', sans-serif;
 }
-.work .work-content .card .btn1:hover{
+.work .work-content .card .btn:hover{
     transform: scale(1.20);
 }
 .work .work-content .card4 .btn4{
@@ -426,6 +427,50 @@ font-size: 18px;
 }
 .work .work-content .card4 .btn4:hover{
     transform: scale(1.50);
+}
+.work .work-content .card5 .btn5:hover{
+    transform: scale(1.20);
+}
+.work .work-content .card5 .btn5{
+    border-radius: 4px;
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    padding: 3px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.work .work-content .card1 .btn1{
+    border-radius: 4px;
+    background-color: rgb(8, 7, 7);
+    color: rgb(77 219 160);
+    cursor: pointer;
+    padding: 3px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.work .work-content .card2 .btn2{
+    border-radius: 4px;
+    background-color: white;
+    color: rgb(236 97 91);
+    cursor: pointer;
+    padding: 3px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.work .work-content .card3 .btn3{
+    border-radius: 4px;
+    background-color: white;
+    color: rgb(90 117 151);
+    cursor: pointer;
+    padding: 3px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.work .work-content .card1 .btn1:hover{
+    transform: scale(1.20);
+}
+.work .work-content .card2 .btn2:hover{
+    transform: scale(1.20);
+}
+.work .work-content .card3 .btn3:hover{
+    transform: scale(1.20);
 }
 /* conttact */
 
