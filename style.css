@@ -292,16 +292,19 @@ font-size: 18px;
     width: 60%;
 }
 .skills .skills-content .right .c::before{
-    width: 80%;
+    width: 70%;
 }
 .skills .skills-content .right .mern-stack::before{
-    width: 75%;   
+    width: 65%;   
 }
 .skills .skills-content .right .oop::before{
     width: 70%;   
 }
 .skills .skills-content .right .ds::before{
     width: 50%;   
+}
+.skills .skills-content .right .design::before{
+    width: 70%;   
 }
 
 
@@ -416,20 +419,24 @@ font-size: 18px;
 }
 .work .work-content .card .btn:hover{
     transform: scale(1.20);
+    transition: ease-in-out;
 }
 .work .work-content .card4 .btn4{
     border-radius: 4px;
-    background-color: rgb(10, 10, 10);
-    color: rgb(255, 255, 0);
+    background-color: rgb(206,246,249);
+    color: rgb(0,94,165);
     cursor: pointer;
     padding: 3px;
     font-family: 'Mochiy Pop P One', sans-serif;
+    transition: ease-in-out;
 }
 .work .work-content .card4 .btn4:hover{
-    transform: scale(1.50);
+    transform: scale(1.20);
+    transition: ease-in-out;
 }
 .work .work-content .card5 .btn5:hover{
     transform: scale(1.20);
+    transition: ease-in-out;
 }
 .work .work-content .card5 .btn5{
     border-radius: 4px;
@@ -438,6 +445,7 @@ font-size: 18px;
     cursor: pointer;
     padding: 3px;
     font-family: 'Mochiy Pop P One', sans-serif;
+    transition: ease-in-out;
 }
 .work .work-content .card1 .btn1{
     border-radius: 4px;
@@ -446,6 +454,7 @@ font-size: 18px;
     cursor: pointer;
     padding: 3px;
     font-family: 'Mochiy Pop P One', sans-serif;
+    transition: ease-in-out;
 }
 .work .work-content .card2 .btn2{
     border-radius: 4px;
@@ -454,6 +463,7 @@ font-size: 18px;
     cursor: pointer;
     padding: 3px;
     font-family: 'Mochiy Pop P One', sans-serif;
+    transition: ease-in-out;
 }
 .work .work-content .card3 .btn3{
     border-radius: 4px;
@@ -461,16 +471,19 @@ font-size: 18px;
     color: rgb(90 117 151);
     cursor: pointer;
     padding: 3px;
-    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;transition: ease-in-out;
 }
 .work .work-content .card1 .btn1:hover{
     transform: scale(1.20);
+    transition: ease-in-out;
 }
 .work .work-content .card2 .btn2:hover{
     transform: scale(1.20);
+    transition: ease-in-out;
 }
 .work .work-content .card3 .btn3:hover{
     transform: scale(1.20);
+    transition: ease-in-out;
 }
 /* conttact */
 
