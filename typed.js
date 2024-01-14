@@ -1045,8 +1045,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports['default'] = HTMLParser;
 	var htmlParser = new HTMLParser();
 	exports.htmlParser = htmlParser;
-
-/***/ })
-/******/ ])
+ }) ])
 });
 ;

@@ -412,7 +412,7 @@ font-size: 18px;
 .work .work-content .card .btn{
     border-radius: 4px;
     background-color: red;
-    color: yellow;
+    color: #263747;
     cursor: pointer;
     padding: 3px;
     font-family: 'Mochiy Pop P One', sans-serif;
@@ -440,8 +440,8 @@ font-size: 18px;
 }
 .work .work-content .card5 .btn5{
     border-radius: 4px;
-    background-color: rgb(10, 10, 10);
-    color: rgb(255, 0, 0);
+    background-color: white;
+    color: #c3892e;
     cursor: pointer;
     padding: 3px;
     font-family: 'Mochiy Pop P One', sans-serif;
@@ -449,8 +449,8 @@ font-size: 18px;
 }
 .work .work-content .card1 .btn1{
     border-radius: 4px;
-    background-color: rgb(8, 7, 7);
-    color: rgb(77 219 160);
+    background-color: #263747;
+    color: white;
     cursor: pointer;
     padding: 3px;
     font-family: 'Mochiy Pop P One', sans-serif;
@@ -458,8 +458,8 @@ font-size: 18px;
 }
 .work .work-content .card2 .btn2{
     border-radius: 4px;
-    background-color: white;
-    color: rgb(236 97 91);
+    background-color: #7808ac;
+    color: black;
     cursor: pointer;
     padding: 3px;
     font-family: 'Mochiy Pop P One', sans-serif;
